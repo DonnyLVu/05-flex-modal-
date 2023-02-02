@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  background: whitesmoke;
+  width: 500px;
+  border-radius: 12px;
+  outline: 1px solid red;
+}
+
+.circle-icon {
+  background: rgb(120, 146, 225);
+  border-radius: 50%;
+  color: blue;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-exit {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
